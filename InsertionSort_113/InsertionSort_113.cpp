@@ -60,7 +60,7 @@ void insertionsort()
 
         cout << endl;
         cout << "\nPass" << i << ": ";      // Output ke layar
-        for (int k = 0; k < ; k++)
+        for (int k = 0; k < n; k++)
         {                               // Looping nilai k dimulai dari 0 hingga n-1
             cout << arr[k] << " ";      // Output ke layar
         }
@@ -92,10 +92,4 @@ int main()
     input();            // Memanggil input 
     insertionsort();    // Memanggil insertionsort
     display();          // Memanggil display 
-}
-
-
-int main()
-{
-    std::cout << "Hello World!\n";
 }
