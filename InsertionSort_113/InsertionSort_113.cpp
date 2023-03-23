@@ -40,7 +40,26 @@ void insertionsort()
 
     int temp; // Membuat variabel data temporer atau penyimpanan sementara 
     int j;    // Membuat variabel j sebagai penanda 
-}
+
+    for (int i = 1; i < n; i++)     // 1. Looping dengan i dimulai dari 1 hingga n-1
+    {
+
+        temp = arr[1];              // 2. Simpan nilai arr[1] ke variabel sementara temp
+
+        j = i - 1;                  // 3. Setting nilai j sama dengan i-1; 
+
+        while (j >= 0 && arr[j] > temp)     // 4. Looping while dimana nilai j lebih besar
+        {
+
+            arr[j + 1] = arr[j];            // a. simpan arr[j] ke dalam variabel arr[j + 1]
+            j--;                            // b. Decrement nilai j by 1
+        } 
+
+        arr[j + 1] = temp;          // simpan nilai temp ke dalam arr[j + 1]
+
+
+        cout << endl; 
+        cout << "\nPass" << i << ": ";      // Output ke layar
 
 
 int main()
