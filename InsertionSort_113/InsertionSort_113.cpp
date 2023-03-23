@@ -22,12 +22,25 @@ void input()
 
         }
     }
-    cout << endl; 
-    cout << "======================" << endl; 
+    cout << endl;
+    cout << "======================" << endl;
     cout << "Masukkan Element Array" << endl;
-    cout << "======================" << endl; 
+    cout << "======================" << endl;
 
-        // Menggunakan perulangan for untuk menyimpan data pada array  
+    // Menggunakan perulangan for untuk menyimpan data pada array 
+    for (int i = 0; i < n; i++)
+    {
+        cout << "data ke-" << (i + 1) << ":";
+        cin >> arr[i];
+    }
+}
+// Procedure Insertionsort
+void insertionsort()
+{
+
+    int temp; // Membuat variabel data temporer atau penyimpanan sementara 
+    int j;    // Membuat variabel j sebagai penanda 
+}
 
 
 int main()
