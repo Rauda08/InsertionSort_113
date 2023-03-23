@@ -81,6 +81,18 @@ void display()
 
     }
     cout << endl;       // Output baris kosong 
+}
+
+
+
+
+
+int main()
+{
+    input();            // Memanggil input 
+    insertionsort();    // Memanggil insertionsort
+    display();          // Memanggil display 
+}
 
 
 int main()
