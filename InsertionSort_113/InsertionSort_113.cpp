@@ -53,13 +53,28 @@ void insertionsort()
 
             arr[j + 1] = arr[j];            // a. simpan arr[j] ke dalam variabel arr[j + 1]
             j--;                            // b. Decrement nilai j by 1
-        } 
+        }
 
         arr[j + 1] = temp;          // simpan nilai temp ke dalam arr[j + 1]
 
 
-        cout << endl; 
+        cout << endl;
         cout << "\nPass" << i << ": ";      // Output ke layar
+        for (int k = 0; k < ; k++)
+        {                               // Looping nilai k dimulai dari 0 hingga n-1
+            cout << arr[k] << " ";      // Output ke layar
+        }
+    }
+}
+
+void display()
+{
+    cout << endl;                                           // Output baris kosong
+    cout << "Total Element Movement= " << n - 1 << endl;    // Cout movement element
+    cout << "\=======================" << endl;             // Output ke layar
+    cout << "Element Array yang telah tersusun" << endl;    // Output ke layar 
+    cout << "========================" << endl;             // Output ke layar
+}
 
 
 int main()
